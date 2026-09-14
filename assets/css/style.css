@@ -284,21 +284,43 @@ header .menu .navegacao .idiomas img {
 /* RODAPE */
 
 .rodape{
-    background-image: linear-gradient(180deg, #D7D7D7 0%, #FFFFFF00 100%);
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #ff0000 0%,#ff7300cb ,#fcba06b2 100%);
 }
 
-.rodape table input{
+.rodape .firula{
     width: 100%;
+}
+
+.rodape .newsletter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rodape input{
+    height: 50px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
 
-.rodape table .selo{
+.rodape .sobre-nos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rodape .sobre-nos .selo{
     width: 250px;
 }
 
-.rodape table a{
+.rodape .sobre-nos table a{
     text-decoration: none;
+}
+
+.rodape .direitos{
+    margin-top: 20px;
+    text-align: center;
 }
 
