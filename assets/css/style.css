@@ -286,20 +286,43 @@ header .menu .navegacao .idiomas img {
 .rodape{
     margin-top: 20px;
     background-image: linear-gradient(to right, #ff0000 0%,#ff7300cb ,#fcba06b2 100%);
+    color: #fff;
 }
 
 .rodape .firula{
     width: 100%;
+    display: block;
+}
+
+.rodape .rodape-conteudo{
+    padding: 40px 0 20px;
+}
+
+.rodape .rodape-topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
 }
 
 .rodape .newsletter{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    flex-basis: 280px;
+}
+
+.rodape .newsletter img{
+    width: 160px;
 }
 
 .rodape input{
-    height: 50px;
+    height: 45px;
+    width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -308,19 +331,71 @@ header .menu .navegacao .idiomas img {
 .rodape .sobre-nos{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 60px;
+    flex-grow: 1;
 }
 
-.rodape .sobre-nos .selo{
-    width: 250px;
+.rodape .sobre-nos .coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.rodape .sobre-nos table a{
+.rodape .sobre-nos .coluna h4{
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.rodape .sobre-nos .coluna a{
+    color: #fff;
     text-decoration: none;
+    font-size: 14px;
+}
+
+.rodape .sobre-nos .coluna a:hover{
+    text-decoration: underline;
+}
+
+.rodape .selo{
+    width: 150px;
+    flex-shrink: 0;
+}
+
+.rodape .rodape-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px 0;
+    font-size: 22px;
+}
+
+.rodape .rodape-social a{
+    color: #fff;
+}
+
+.rodape .rodape-legal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 30px;
+    margin-bottom: 15px;
+}
+
+.rodape .rodape-legal a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.rodape .rodape-legal a:hover{
+    text-decoration: underline;
 }
 
 .rodape .direitos{
-    margin-top: 20px;
     text-align: center;
+    font-size: 13px;
 }
-
